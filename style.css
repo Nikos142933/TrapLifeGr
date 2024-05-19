@@ -1,0 +1,348 @@
+.Title1 {
+    color: orange;
+    font-size: 30px;
+    top: 26px;
+    position: absolute;
+    right: 1090px;
+
+}
+
+.Title2 {
+    color: orange;
+    font-size: 30px;
+    top: 26px;
+    position: absolute;
+    right: 890px;
+
+}
+
+.banner {
+    position: absolute;
+    width: 99.6%;
+    height: 99.2%;
+
+}
+
+body {
+    background-color: rgb(58, 58, 58);
+}
+
+.Logo1 {
+    height: 10%;
+    width: 5%;
+    position: absolute;
+    right: 980px;
+}
+
+.discord {
+    color: rgb(0, 89, 255);
+    font-size: 22px;
+    background-color: transparent;
+    background-size: 10px;
+    position: absolute;
+    border-radius: 5px;
+    top: 1.8%;
+    left: 1800;
+}
+
+.youtube {
+    color: rgb(216, 0, 0);
+    font-size: 22px;
+    background-color: transparent;
+    background-size: 10px;
+    position: absolute;
+    border-radius: 5px;
+    top: 13.8%;
+    left: 120;
+}
+
+.connect {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    background-color: transparent;
+    background-size: 10px;
+    position: absolute;
+    border-radius: 5px;
+    top: 13.8%;
+    left: 195;
+}
+
+.leaks {
+    color: rgb(255, 123, 0);
+    font-size: 22px;
+    background-color: transparent;
+    background-size: 10px;
+    position: absolute;
+    border-radius: 5px;
+    top: 13.8%;
+    left: 270;
+}
+
+.hr {
+    top: 150;
+    position: relative;
+}
+
+.hr2 {
+    top: 110;
+    position: relative;
+} 
+
+.hr3 {
+    top: 155;
+    position: relative;
+}
+
+/* Error/Soon Style */
+.error1 {
+    color: red;
+    position: absolute;
+    left: 48%;
+    top: 37%;
+}
+
+.error2 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    position: absolute;
+    left: 46%;
+    top: 41%;
+}
+
+.errorimage {
+    position: absolute;
+    width: 100%;
+    height: 1000%;
+}
+
+.error4 {
+    color: rgb(133, 0, 0);
+    font-size: 25px;
+    position: absolute;
+    left: 44.2%;
+    top: 42%;
+}
+
+.error5 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    position: absolute;
+    left: 40%;
+    top: 45%;
+}
+
+.error6 {
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    position: absolute;
+    left: 46%;
+    top: 46%;
+}
+
+.home /*Back To Home Button*/ {
+    color: rgb(216, 0, 0);
+    font-size: 22px;
+    background-color: transparent;
+    background-size: 10px;
+    position: absolute;
+    border-radius: 5px;
+    top: 54.5%;
+    left: 900;
+}
+
+.discordlink2 {
+    position: absolute;
+    right: 30px;
+    top: 444px;
+}
+
+.discordbutton {
+    color: blue;
+}
+
+/*Leaks*/
+
+.leaks2 {
+        color: rgb(234, 0, 255);
+        font-size: 22px;
+        background-color: transparent;
+        background-size: 10px;
+        position: absolute;
+        border-radius: 5px;
+        top: 20.8%;
+        left: 6;
+    }
+
+  
+
+/*Discord*/
+.banner2 {
+    width: 100%;
+    height: 100%;
+}
+
+.discordlink {
+    position: absolute;
+    right: 30px;
+    top: 450px;
+}
+
+.discord1 {
+    position: absolute;
+    top: 40%;
+    right: 41%;
+    color: white;
+    font: bold;
+}
+
+.discord2 {
+    position: absolute;
+    top: 45%;
+    right: 35%;
+    color: white;
+    font: bold;
+}
+
+.discord3 {
+    position: absolute;
+    top: 47%;
+    right: 40%;
+    color: white;
+    font: bold;
+}
+
+.discord4 {
+    position: absolute;
+    top: 49%;
+    right: 50%;
+    color: white;
+    font: bold;
+}
+
+.gohome {
+    color: rgb(216, 0, 0);
+    font-size: 22px;
+    background-color: transparent;
+    background-size: 10px;
+    position: absolute;
+    border-radius: 5px;
+    top: 54%;
+    right: 50%;
+}
+
+/*SideBar Menu*/
+
+.header {
+    width: 100%;
+    height: 95vh;
+    /**background-image: url(img/Side-Bar/background.png);**/
+    background-position: center;
+    background-size: cover;
+
+}
+
+.side-nav {
+    width: 85px;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 15px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    transition: width 0.2s;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70px;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.user div {
+    display: none;
+}
+
+.user h2 {
+    font-size: 15px;
+    font-weight: 600;
+    white-space: nowrap;
+
+}
+
+.user-img {
+    width: 40px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.star-img {
+    width: 20px;
+    display: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0 15px;
+}
+
+ul li {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+ul li img{
+    width: 30px;
+    margin-right: 0px;
+}
+
+ul li p{
+    white-space: nowrap;
+    display: none;
+}
+
+.side-nav:hover {
+    width: 200px;
+}
+
+.side-nav:hover .user div {
+    display: block;
+}
+
+.side-nav:hover .user {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+}
+
+.side-nav:hover .star-img {
+    display: block;
+}
+
+.side-nav:hover .user-img {
+    margin: 0;
+}
+
+.side-nav:hover ul li p {
+    display: block;
+}
+
+.side-nav:hover ul li img {
+    margin-right: 10px;
+}
+
+.side-nav:hover ul li{
+    justify-content: flex-start;
+}
